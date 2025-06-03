@@ -1,0 +1,96 @@
+.data-member {
+  padding-top: 7px;
+}
+
+.table-1 {
+  padding: 20px;
+}
+
+.title-1 {
+  padding: 10px 0 0 15px;
+}
+
+.th-name-1 {
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.th-email-1 {
+  width: 40%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.th-role-1 {
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tb-name-1 {
+  width: 30%;
+  text-align: center;
+}
+
+.tb-email-1 {
+  width: 40%;
+  text-align: center;
+}
+
+.tb-role-1 {
+  width: 30%;
+  text-align: center;
+}
+
+.data-task {
+  padding-top: 7px;
+}
+
+.title-2 {
+  padding: 10px 0 0 15px;
+}
+
+.th-project-name-2 {
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.th-task-name-2 {
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.th-deadline-2 {
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.th-status-2 {
+  width: 25%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tb-project-name-2 {
+  width: 25%;
+  text-align: center;
+}
+
+.tb-task-name-2 {
+  width: 25%;
+  text-align: center;
+}
+
+.tb-deadline-2 {
+  width: 25%;
+  text-align: center;
+}
+
+.tb-status-2 {
+  width: 25%;
+  text-align: center;
+}

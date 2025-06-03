@@ -1,0 +1,125 @@
+.project-title {
+  padding-top: 15px;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.project-owner {
+  padding-top: 5px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.project-desc {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.container-table {
+  padding: 10px;
+  margin: 0;
+}
+
+.header-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 18px;
+  font-weight: normal;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.action {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.th-no {
+  font-weight: bold;
+  width: 5%;
+  text-align: center;
+  align-content: center;
+}
+
+.th-name {
+  font-weight: bold;
+  width: 25%;
+  text-align: center;
+  align-content: center;
+}
+
+.th-task {
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
+  align-content: center;
+}
+
+.th-status {
+  font-weight: bold;
+  width: 10%;
+  text-align: center;
+  align-content: center;
+}
+
+.th-deadline {
+  font-weight: bold;
+  width: 20%;
+  text-align: center;
+  align-content: center;
+}
+
+.th-action {
+  font-weight: bold;
+  width: 10%;
+  text-align: center;
+  align-content: center;
+}
+
+.tb-no {
+  align-content: center;
+  text-align: center;
+}
+
+.tb-name {
+  align-content: center;
+
+  text-align: center;
+}
+
+.tb-task {
+  align-content: center;
+
+  text-align: center;
+}
+
+.tb-status {
+  align-content: center;
+
+  text-align: center;
+}
+
+.tb-deadline {
+  align-content: center;
+
+  text-align: center;
+}
+
+.tb-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}

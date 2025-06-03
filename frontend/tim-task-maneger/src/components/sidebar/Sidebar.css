@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.frame {
+  display: flex;
+  height: 100vh; /* biar frame mengisi seluruh tinggi layar */
+}
+
+.sidebar {
+  width: 18%;
+  background-color: #111827;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.border-hedaer {
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-sidebar {
+  padding: 10px;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.nav-link {
+  width: 90%;
+  background-color: #111827;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 3px;
+  padding: 8px;
+}
+
+.nav-link:hover {
+  background-color: #374151;
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #374151;
+  color: white;
+}
+
+.content {
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f1f6;
+  height: 100vh; /* Tambahkan ini untuk jaga-jaga */
+}
+
+.header-content {
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #ffffff;
+  color: black;
+  padding: 0 20px;
+}
+
+.header-content a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.main-content {
+  background-color: #f0f2f7;
+  flex-grow: 1;
+  min-height: 0;
+  overflow-y: auto;
+}

@@ -1,0 +1,118 @@
+.container {
+  background-color: #fff;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header {
+  padding: 7px;
+}
+
+.btn-plus {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-table {
+  padding: 10px;
+}
+
+.table {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #f9f9f9;
+}
+
+.tr-head {
+  text-align: center;
+}
+
+.head-no {
+  width: 5%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.head-name {
+  width: 40%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.head-role {
+  width: 30%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.head-email {
+  width: 30%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.head-action {
+  width: 25%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.tr-body {
+  text-align: center;
+}
+
+.body-no {
+  width: 5%;
+}
+
+.body-name {
+  width: 40%;
+}
+
+.body-role {
+  width: 30%;
+}
+
+.body-email {
+  width: 30%;
+}
+
+.body-action {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.action-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-notes {
+  padding: 10px;
+  font-size: 30px;
+  padding-bottom: 0;
+}
+
+.content-notes {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
