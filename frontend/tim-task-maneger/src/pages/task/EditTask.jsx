@@ -35,7 +35,7 @@ export const EditTask = () => {
         taskId : ${taskId}`);
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://localhost:3000/api/v1/task/id/${projectId}`,
+        `http://localhost:3000/api/v1/task/id/${taskId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
