@@ -110,13 +110,19 @@ const Home = () => {
   };
 
   const deleteProjectCompleted = async (id) => {
+    const token = localStorage.getItem("token");
+    const role = localStorage.getItem("role");
+
+    if (role !== "admin") {
+      return alert(`Hannya admin yang bisa menghapus data ini`);
+    }
+
     const confirmDelete = window.confirm(
       "Apakah kamu yakin ingin menghapus project ini?"
     );
     if (!confirmDelete) return; // Batalkan jika user tidak yakin
 
     try {
-      const token = localStorage.getItem("token");
       await axios.delete(`http://localhost:3000/api/v1/project/delete/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
